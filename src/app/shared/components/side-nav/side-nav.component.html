@@ -1,6 +1,10 @@
 <div class="nav-items">
-    <div class="nav-item">
-      <!-- <fa-icon [icon]="faDashboard"></fa-icon> -->
-      <span>Dashboard</span>
-    </div>
+  <mat-sidenav mode="side" opened>
+    <mat-nav-list>
+      <a mat-list-item href="#" *ngFor="let item of menuItems" [disableRipple]="true">
+        <mat-icon>{{ item.icon }}</mat-icon>
+        <span>{{ item.label }}</span>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
 </div>
