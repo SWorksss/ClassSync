@@ -1,10 +1,31 @@
-<div class="nav-items">
-  <mat-sidenav mode="side" opened>
-    <mat-nav-list>
-      <a mat-list-item href="#" *ngFor="let item of menuItems" [disableRipple]="true">
-        <mat-icon>{{ item.icon }}</mat-icon>
-        <span>{{ item.label }}</span>
-      </a>
-    </mat-nav-list>
-  </mat-sidenav>
+<div class="left side-menu">
+  <div class="sidebar-inner slimscrollleft">
+
+    <!--- Sidemenu -->
+    <div id="sidebar-menu">
+      <ul>
+        <li class="menu-title">Navigation</li>
+
+        <li class="has_sub">
+          <a href="index.php" class="waves-effect"><i class="mdi mdi-view-dashboard"></i><span> Dashboard </span> </a>
+        </li>
+
+        <li class="has_sub">
+          <a href="profile.php" class="waves-effect"><i class="mdi mdi-account"></i> <span> My Account</span></a>
+        </li>
+
+        <li id="encashment" class="has_sub">
+          <a href="encashment.php" class="waves-effect"><i class="mdi mdi-cash"></i><span> Encashment </span> </a>
+        </li>
+        <li class="has_sub">
+          <a href="networkTree.php" class="waves-effect"><i class="mdi mdi-account-network"></i><span> Network </span> </a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- Sidebar -->
+
+  </div>
+  <!-- Sidebar -left -->
+
 </div>
