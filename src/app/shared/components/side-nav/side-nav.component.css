@@ -1,6 +1,6 @@
-.sidenav-container {
-  height: 100%;
-}
+/* .sidenav-container {
+  height: 100;
+} */
 
 .sidenav-header {
   display: flex;
@@ -20,6 +20,10 @@
 
 mat-list-item {
   cursor: pointer;
+}
+
+.navbar {
+  height: 100vh;
 }
 
 @media (min-width: 992px) {
