@@ -21,3 +21,15 @@
 mat-list-item {
   cursor: pointer;
 }
+
+@media (min-width: 992px) {
+    .layout-nav-side > .navbar {
+        padding: 1.5rem;
+        width: 264px;
+        height: 100vh;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+}
